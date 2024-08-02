@@ -1,7 +1,7 @@
 export const lista_contactos=[
     {
         nombre: 'Messi',
-        thumbnail: '/src/images/messi.jpg',
+        thumbnail: '/images/messi.jpg',
         ultima_conexion: 'ayer',
         id: 1,
         numero: '+54 9 11 2222-3333',
@@ -19,7 +19,7 @@ export const lista_contactos=[
     {
         nombre: 'Yamal',
         id: 2,
-        thumbnail: '/src/images/yamal.jpg',
+        thumbnail: '/images/yamal.jpg',
         numero: '+54 9 11 2222-3333',
         ultima_conexion: 'ayer',
         mensajes:[
@@ -36,7 +36,7 @@ export const lista_contactos=[
     {
         nombre: 'Pepe',
         id: 3,
-        thumbnail: '/src/images/persona.jpg',
+        thumbnail: '/images/persona.jpg',
         numero: '+54 9 11 2222-3333',
         ultima_conexion: 'ayer',
         mensajes:[
@@ -68,7 +68,7 @@ export const lista_contactos=[
     },
     {
         nombre: 'Cavani ',
-        thumbnail: '/src/images/cavani.jpg',
+        thumbnail: '/images/cavani.jpg',
         ultima_conexion: 'ayer',
         id: 4,
         numero: '+54 9 11 2222-3333',
@@ -93,7 +93,7 @@ export const lista_contactos=[
     },
     {
         nombre: 'Duko',
-        thumbnail: '/src/images/duko.jpg',
+        thumbnail: '/images/duko.jpg',
         ultima_conexion: 'ayer',
         id: 5,
         numero: '+54 9 11 2222-3333',
@@ -126,7 +126,7 @@ export const lista_contactos=[
     },
     {
         nombre: 'Facha',
-        thumbnail: '/src/images/facha.jpg',
+        thumbnail: '/images/facha.jpg',
         ultima_conexion: 'ayer',
         id: 6,
         numero: '+54 9 11 2222-3333',
@@ -143,14 +143,14 @@ export const lista_contactos=[
     },
     {
         nombre: 'Hasbu',
-        thumbnail: '/src/images/hasbu.jpg',
+        thumbnail: '/images/hasbu.jpg',
         ultima_conexion: 'ayer',
         id: 7,
         numero: '+54 9 11 2222-3333',
         mensajes:[
             {
                 author: 'Hasbu',
-                text: 'hermanooo',
+                text: 'спасибо, React 🤑💰',
                 estado: 'visto',
                 day: 'hoy',
                 hour: '13:15',
@@ -160,7 +160,7 @@ export const lista_contactos=[
     },
     {
         nombre: 'Cobra',
-        thumbnail: '/src/images/lacobra.jpg',
+        thumbnail: '/images/lacobra.jpg',
         ultima_conexion: 'ayer',
         id: 8,
         numero: '+54 9 11 2222-3333',
@@ -177,7 +177,7 @@ export const lista_contactos=[
     },
     {
         nombre: 'Toscano',
-        thumbnail: '/src/images/toscano.jpg',
+        thumbnail: '/images/toscano.jpg',
         ultima_conexion: 'ayer',
         id: 9,
         numero: '+54 9 11 2222-3333',
@@ -194,7 +194,7 @@ export const lista_contactos=[
     },
     {
         nombre: 'Cucurela',
-        thumbnail: '/src/images/cucurela.jpg',
+        thumbnail: '/images/cucurela.jpg',
         ultima_conexion: 'ayer',
         id: 10,
         numero: '+54 9 11 2222-3333',
