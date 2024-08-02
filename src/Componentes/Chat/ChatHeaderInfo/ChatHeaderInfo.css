@@ -1,0 +1,86 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.chat_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+}
+
+.chat_header .contacto a{
+    text-decoration: none;
+}
+
+.contacto i{
+    color: #ddd;
+    padding-right: 5px;
+}
+
+.img_header{
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 0;
+    width: 50px;
+    object-fit: cover;
+}
+
+.icons_header{
+    align-self: center;
+}
+
+.icon{
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.nombre{
+    align-self: center;
+    padding-left: 20px;
+    color: white;
+}
+
+.hamburguesa{
+    display: none;
+    color: #ddd;
+    font-size: 30px;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+
+@media screen and (max-width:400px){
+    .icons_header .icon{
+        display: none;
+    }
+
+    .icons_header .hamburguesa{
+        display: block;
+    }
+    
+}
+
+.menu_opciones{
+    position: absolute;
+    top: 60px; 
+    right: 10px;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.menu_opciones a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.menu_opciones a:hover{
+    background-color: rgb(85, 84, 84);
+}
+

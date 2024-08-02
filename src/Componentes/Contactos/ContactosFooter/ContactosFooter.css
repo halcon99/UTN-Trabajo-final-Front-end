@@ -1,0 +1,47 @@
+.navegador{
+    background-color: black;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    justify-content: space-around;
+}
+
+.navegador_container{
+    position: relative;
+    overflow: hidden;
+    height: 80px;
+}
+
+.navegador a{
+    padding: 15px;
+    text-decoration: none;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    color: #ddd;
+}
+
+.navegador a i{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+.navegador a span{
+    text-align: center;
+}
+
+
+@media screen and (max-width:400px){
+    .navegador a{
+        font-size: 15px;
+        padding: 15px 10px;
+    }
+    .navegador a i{
+        font-size: 20px;
+    }
+}

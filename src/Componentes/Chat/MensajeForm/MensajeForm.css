@@ -1,0 +1,37 @@
+.input{
+    height: 35px;
+    margin: 10px;
+    width: 70%;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.btn{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: green;
+    cursor: pointer;
+
+}
+.btn i{
+    font-size: 25px;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+
+.input_submit{
+   background-color: black;
+   display: flex;
+   align-items: center;
+}
+
+.input_submit a i{
+    color: #ddd;
+    padding-left: 10px;
+    font-size: 25px;
+}

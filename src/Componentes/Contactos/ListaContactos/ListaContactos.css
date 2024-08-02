@@ -1,0 +1,46 @@
+.div_contacto{
+    background-color: rgb(66, 68, 68);
+    margin: 15px 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+   
+}
+
+.div_contacto:hover{
+    background-color: rgb(83, 85, 85);
+}
+
+.foto_contacto{
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    object-fit: cover;
+    
+}
+
+.div_info{
+    padding-left: 10px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.div_info p{
+    float: right;
+    padding-right: 5px;
+}
+
+.ultimo_mensaje{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
